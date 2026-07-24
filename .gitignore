@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+*.venv
+
+# Local Vector Database & Indexes
+vector_db/
+*.index
+*.pkl
+
+# Environment variables and API keys
+.env
+.env.local
+
+# Hugging Face & Sentence-Transformers Cache
+.cache/
+huggingface/
+
+# IDE & Editor Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
